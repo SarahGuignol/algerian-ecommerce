@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/algerian-ecommerce/static/css/main.8b2fa496.css",
+    "main.js": "/algerian-ecommerce/static/js/main.fbb33cf1.js",
+    "static/js/453.c10a456b.chunk.js": "/algerian-ecommerce/static/js/453.c10a456b.chunk.js",
+    "index.html": "/algerian-ecommerce/index.html",
+    "main.8b2fa496.css.map": "/algerian-ecommerce/static/css/main.8b2fa496.css.map",
+    "main.fbb33cf1.js.map": "/algerian-ecommerce/static/js/main.fbb33cf1.js.map",
+    "453.c10a456b.chunk.js.map": "/algerian-ecommerce/static/js/453.c10a456b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b2fa496.css",
+    "static/js/main.fbb33cf1.js"
+  ]
+}
