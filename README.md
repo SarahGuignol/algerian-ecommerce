@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Algerian E-Commerce App
+
+A React-based e-commerce application for an Algerian clothing store.
+
+## Features
+
+- Browse products in a grid layout
+- View product details with automatic view counting
+- Add/remove items from cart
+- Adjust quantities in cart
+- View cart total in DZD
+- Product reviews system
+- Search functionality
+- Responsive design
+- Persistent cart using localStorage
+- "New Arrival" badges for products with <10 views
+
+## Setup
+
+1. Clone the repository
+2. Install dependencies: npm install
+3. Run the app: npm start
+
+## Technologies Used
+
+- React
+- React Router
+- Context API for state management
+- LocalStorage for persistence
+- CSS Grid/Flexbox for layout
