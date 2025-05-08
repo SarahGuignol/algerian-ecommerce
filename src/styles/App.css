@@ -1,3 +1,17 @@
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),
+    url('images/Hero-bg.jpg') center/cover no-repeat;
+  z-index: -1;
+  opacity: 0.3;
+}
+
 /* Base colors */
 :root {
   --gold: #D4AF37;
@@ -5,6 +19,7 @@
   --white: #F8F8F8;
   --pink: #F8D7E6;
   --light-gold: #F0E6D2;
+  --light-green: #3ddf45;
 }
 
 /* Base styles */
@@ -120,13 +135,13 @@ nav a:hover::after {
 .item-card h3 {
   margin: 10px 0 5px;
   font-size: 1.2rem;
-  color: var(--black);
+  color: var(--white);
 }
 
 .item-card p {
   margin: 5px 0;
   font-weight: bold;
-  color: var(--black);
+  color: var(--light-green);
   font-size: 1.1rem;
 }
 
@@ -421,4 +436,32 @@ footer {
 
 .social-links a:hover {
   color: var(--gold);
+}
+
+/* Products Grid */
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+  padding: 30px;
+}
+
+.item-card {
+  border: 1px solid #D4AF37;
+  padding: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+  background: #1A1A1A;
+  color: #F8F8F8;
+}
+
+.item-card:hover {
+  transform: translateY(-5px);
+}
+
+.item-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
 }

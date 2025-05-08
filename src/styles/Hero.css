@@ -1,0 +1,26 @@
+.hero-animated {
+    text-align: center;
+    padding: 100px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gold-shimmer {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      90deg,
+      transparent,
+      rgba(212, 175, 55, 0.1),
+      transparent
+    );
+    animation: shimmer 3s infinite;
+  }
+  
+  @keyframes shimmer {
+    0% { left: -100%; }
+    100% { left: 100%; }
+  }

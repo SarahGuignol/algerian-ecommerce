@@ -1,8 +1,10 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useCart } from '../context/CartContext';
 
 const ItemCard = ({ product }) => {
   const navigate = useNavigate();
+  const { addToCart } = useCart();
   
   const handleClick = () => {
     navigate(`/product/${product.id}`);
@@ -17,7 +19,7 @@ const ItemCard = ({ product }) => {
       <button 
         onClick={(e) => {
           e.stopPropagation();
-          // Add to cart functionality will be handled by parent component
+          addToCart(product);
         }}
       >
         Add to Cart

@@ -85,6 +85,9 @@ A React-based e-commerce application for an Algerian clothing store.
 - Responsive design
 - Persistent cart using localStorage
 - "New Arrival" badges for products with <10 views
+- Product listings
+- Shopping cart
+- Product reviews
 
 ## Setup
 
