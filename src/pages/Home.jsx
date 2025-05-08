@@ -24,6 +24,14 @@ const Home = () => {
         value={searchTerm}
         onChange={(e) => setSearchTerm(e.target.value)} />
 
+      <div className="category-filter">
+        {categories.map(category => (
+          <button key={category} onClick={() => setSearchTerm(category)}>
+            {category}
+          </button>
+        ))}
+      </div>
+      
       <Hero />
       <div className="products-grid">
         {filteredProducts.map(product => (
@@ -33,13 +41,7 @@ const Home = () => {
             onAddToCart={() => addToCart(product)} />
         ))}
       </div>
-    </div><div className="category-filter">
-        {categories.map(category => (
-          <button key={category} onClick={() => setSearchTerm(category)}>
-            {category}
-          </button>
-        ))}
-      </div></>
+    </div></>
   );
 };
 

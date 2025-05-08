@@ -35,7 +35,7 @@ const ProductDetail = () => {
   return (
     <div className="product-detail">
       <img src={product.image} alt={product.name} />
-      <h1>{product.name}</h1>
+      <h1>{product.name} <p>Discover the timeless elegance of Algerian traditional clothing, where every stitch tells a story of rich heritage and craftsmanship. From the intricate embroidery to the vibrant colors, each piece is a celebration of culture and beauty. Add a touch of authenticity to your wardrobe—shop now and embrace the charm of Algeria’s traditional fashion.</p></h1>
       <p>Price: {product.price} DZD</p>
       <p>Views: {product.views}</p>
       <p>Sold: {product.sold}</p>

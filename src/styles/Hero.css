@@ -1,6 +1,6 @@
 .hero-animated {
     text-align: center;
-    padding: 100px 20px;
+    padding: 20px 8px;
     position: relative;
     overflow: hidden;
   }
@@ -14,10 +14,10 @@
     background: linear-gradient(
       90deg,
       transparent,
-      rgba(212, 175, 55, 0.1),
+      rgba(142, 120, 47, 0.604),
       transparent
     );
-    animation: shimmer 3s infinite;
+    animation: shimmer 5s infinite;
   }
   
   @keyframes shimmer {
